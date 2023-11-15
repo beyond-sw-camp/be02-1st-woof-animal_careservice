@@ -1,28 +1,29 @@
 <h1 align="center">반려동물 케어 서비스</h1>
 
-<h1 align="center">
-<img src="C:\be02-1st-woof-animal_careservice\main.jpg" width="600">
-</h1>
 
-> > [플레이 데이터] 한화시스템 BEYOND SW캠프 / Woof
+<center>
+    <img src=""  style="zoom:76%;" align="center"/>
+</center>
+
+
+
+> [플레이 데이터] 한화시스템 BEYOND SW캠프 / woof
+
 
 🎬[Demo 시연영상](https://www.youtube.com/watch?v=dhMrKTwNI8U&lc=UgzCJR3WxkvsckRyyO94AaABAg&ab_channel=%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B4%EC%84%9C%EB%B0%B0%EC%9A%B0%EB%8A%94IT)   
 📃[프로젝트 회고록](블로그주소)
 
 <br>
 
-## ✨ 프로젝트 소개
-<img src="C:\be02-1st-woof-animal_careservice\프로젝트설명 사진.png" width="600">
+## ✨ 프로젝트 설명
 
+<img src="C:\be02-1st-woof-animal_careservice\프로젝트설명 사진.jpg" width="600">
 
 ```sh
-반려동물 시장과 1인 가구의 규모가 점점 커지면서 하루동안 맡아서 관리 해주는 유치원 같은 서비스가
-많아지고 있다. 하지만 관련 서비스를 쉽게 파악할 수 있는 시스템은 적어 선정하게 되었다.  
+
+반려동물 시장과 1인 가구의 규모가 점점 커지면서 하루동안 맡아서 관리 해주는 유치원 같은
+서비스가 많아지고 있다. 하지만 관련 서비스를 쉽게 파악할 수 있는 시스템은 적어 선정하게 되었다.  
 ```
-
-## 📃 프로젝트 배경
-
-## 🖋️ 프로젝트 언어 및 환경
 
 ## 📌 프로젝트 목표
 
