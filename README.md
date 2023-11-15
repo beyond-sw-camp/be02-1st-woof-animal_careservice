@@ -17,7 +17,7 @@
 
 ## ✨ 프로젝트 설명
 
-<img src="C:\be02-1st-woof-animal_careservice\프로젝트설명 사진.jpg" width="600">
+<img src="C:\be02-1st-woof-animal_careservice\프로젝트설명 사진.png" width="600">
 
 ```sh
 
