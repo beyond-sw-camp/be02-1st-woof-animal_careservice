@@ -5,9 +5,9 @@ Woof</h1>
 
 ![Alt text](main.jpg)
 
-<center>
-    <img src=""  style="zoom:76%;" align="center"/>
-</center>
+<div style="text-align: center;">
+    <img src=""  style="zoom:76%" align="center"/>
+</div>
 
 
 
@@ -78,9 +78,11 @@ MySQL을 사용하여 E-R 다이어그램을 작성한다.
 1. 이동서비스 금액은 돈으로 결제를 받는다
 2. 예약 내역은 예약 시간, 처치내용, 방문업체를 사용자로부터 수집한다
 
+ 
 
-## 🤼‍♂️팀원
+### 🤼‍♂️팀원
 
+: 🐺 **강지흔**
 : 🐶 **강문혜**
 
 : 🐺 **강지흔**
