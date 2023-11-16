@@ -1,7 +1,7 @@
 <h1 align="center">
 반려동물 케어 서비스  
 
-Woof</h1>
+Woof </h1>
 
 ![Alt text](main.jpg)
 
@@ -16,8 +16,6 @@ Woof</h1>
 
 🎬[Demo 시연영상](https://www.youtube.com/watch?v=dhMrKTwNI8U&lc=UgzCJR3WxkvsckRyyO94AaABAg&ab_channel=%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B4%EC%84%9C%EB%B0%B0%EC%9A%B0%EB%8A%94IT)   
 📃[프로젝트 회고록](블로그주소)
-
-<br>
 
 ## ✨ 프로젝트 설명
 ![Alt text](<프로젝트설명 사진.png>)
