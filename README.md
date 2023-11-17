@@ -47,6 +47,8 @@ ERD
 
 multi-primary를 활용한 cluster 서버
 -----------------------------------------
+<img src="img/ezgif.com-video-to-gif.gif">
+<img src="img/ezgif.com-video-to-gif (1).gif">
 <서버 닫고열고 해보고 하는 움짤>
 우리꺼로 바꾸기
 
