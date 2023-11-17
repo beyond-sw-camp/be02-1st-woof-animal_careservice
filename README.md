@@ -5,11 +5,6 @@ Woof </h1>
 
 ![Alt text](img/main.jpg)
 
-<div style="text-align: center;">
-    <img src=""  style="zoom:76%" align="center"/>
-</div>
-
-
 
 > [플레이 데이터] 한화시스템 BEYOND SW캠프 / Woof
 
