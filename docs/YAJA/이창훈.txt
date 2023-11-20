@@ -1,0 +1,60 @@
+질문
+-CEO ID, USER ID VARCHAR로 바꾸기
+-쿼리문 저런식으로 짜는게 맞는지
+
+
+쿼리문
+<사용자>
+예약하는 화면 (총 4Page)
+
+1Page - 어떤 가게에 갈 것이냐 (연결해야할 table : CEO, RESERVATION, REVIEW)
+(별점 내림차순, 리뷰갯수 내림차순)
+-CEO_type
+-CEO_phone number
+-CEO_address
+-CEO_가게이름 (CEO테이블에 추가)
+-REVIEW_rate
+-REVIEW_picture
+-REVIEW_comment
+-REVIEW_comment time
+
+
+2Page - 어떤 시간대에 어떤 매니저와 할 것이냐 (연결해야할 table : RESERVATION, WOOF_MANAGER)
+-RESERVATION_time
+-RESERVATION_place
+-WOOF_MANAGER_이름 (WOOF_MANAGER테이블에 추가)
+-WOOF_MANAGER_gender
+-WOOF_MANAGER_career
+-WOOF_MANAGER_car number
+
+
+3Page - 인적사항/요구사항 작성 (연결해야할 table : USER, RESERVATION, PET, 요구사항)
+-USER_ID
+-USER_phonenumber
+-PET_이름 (PET테이블에 추가)
+-PET_speices
+-PET_age
+-PET_gender
+-PET_sickness
+-PET_weight
+-PET_personality
+-요구사항_요구사항 (요구사항 테이블 생성??)
+
+
+4Page - 예약완료 후 확인페이지
+-CEO_type
+-CEO_phone number
+-CEO_address
+-CEO_가게이름 (CEO테이블에 추가)
+-RESERVATION_time
+-RESERVATION_place
+-WOOF_MANAGER_이름 (WOOF_MANAGER테이블에 추가)
+-WOOF_MANAGER_car number
+-USER_ID
+-USER_phonenumber
+-PET_이름 (PET테이블에 추가)
+-요구사항_요구사항 (요구사항 테이블 생성??)
+
+
+
+-결제는???
