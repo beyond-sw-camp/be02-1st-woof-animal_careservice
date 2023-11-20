@@ -1,0 +1,49 @@
+[업체]
+업체가 본인들 등록 - CEO_ID, CEO_PW
+
+예약한 고객 정보 확인
+WOOF_MANAGER_manager number
+RESERVSTION_time
+RESERVSTION_place
+RESERVSTION_status,
+CEO_ID
+USER_ID
+RESERVSTION_order 
+
+
+
+매니저
+WOOF_MANAGER_carer
+WOOF_MANAGER_car 
+WOOF_MANAGER_manager number
+
+요구사항 테이블 -> 매니저 성별 
+WOOF_MANAGER_gender
+
+등록
+PET_age
+PET_sickness
+PET_number
+PET_speices
+PET_gender
+PET_age
+PET_sickness
+PET_number
+PET_weight
+PET_personality
+
+-업체- 정보 확인 
+PET_age
+PET_sickness
+PET_number
+PET_speices
+PET_gender
+PET_age
+PET_sickness
+PET_number
+PET_weight
+PET_personality
+USER_ID
+
+
+
