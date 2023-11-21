@@ -1,0 +1,79 @@
+<사용자>
+
+예약하는 화면 (총 4Page)
+
+1Page - 어떤 가게에 갈 것이냐 
+(별점 내림차순, 리뷰갯수 내림차순)
+-CEO_type
+-CEO_phone number
+-CEO_address
+-CEO_가게이름 (CEO테이블에 추가)
+-REVIEW_rate
+-REVIEW_picture
+-REVIEW_comment
+-REVIEW_comment time
+-RESERVATION_time
+-RESERVATION_place
+-WOOF_MANAGER_이름 (WOOF_MANAGER테이블에 추가)
+-WOOF_MANAGER_gender
+-WOOF_MANAGER_career
+-WOOF_MANAGER_car number
+
+
+2Page - 인적사항
+-USER_ID
+-USER_phonenumber
+-PET_이름 (PET테이블에 추가)
+-PET_speices
+-PET_age
+-PET_gender
+-PET_sickness
+-PET_weight
+-PET_personality
+
+
+3Page - 예약완료 후 확인페이지
+-CEO_type
+-CEO_phone number
+-CEO_address
+-CEO_가게이름 (CEO테이블에 추가)
+-RESERVATION_time
+-RESERVATION_place
+-WOOF_MANAGER_전화번호 (매니저 테이블에 추가)
+-RESERVATION_number
+-PET_이름 (PET테이블에 추가)
+
+
+====================
+
+[woof 매니저]
+
+예약시간
+고객 연락처
+고객 ID
+고객 주소
+가게 주소
+가게 이름 - id로 되어있음
+가게 연락처
+펫 종
+펫 나이
+펫 성별
+펫 병
+펫 몸무게
+펫 성격
+
+======================
+
+[CEO]
+고객 연락처
+고객 ID
+고객 주소
+펫 종
+펫 나이
+펫 성별
+펫 병
+펫 몸무게
+펫 성격
+예약시간
+매니저 연락처 - 추가?
+매니저 사원번호
