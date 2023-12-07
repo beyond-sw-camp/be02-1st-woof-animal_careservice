@@ -9,8 +9,6 @@ Woof </h1>
 > [플레이 데이터] 한화시스템 BEYOND SW캠프 / Woof
 
 
-🎬[Demo 시연영상](https://www.youtube.com/watch?v=dhMrKTwNI8U&lc=UgzCJR3WxkvsckRyyO94AaABAg&ab_channel=%EB%94%B0%EB%9D%BC%ED%95%98%EB%A9%B4%EC%84%9C%EB%B0%B0%EC%9A%B0%EB%8A%94IT)   
-📃[프로젝트 회고록](블로그주소)
 
 ## ✨ 프로젝트 설명
 
@@ -23,9 +21,10 @@ Woof는 사용자 주변 반려동물 업체에 대한 정보를 제공하고 �
 ## 📌 프로젝트 목표
 
 ```sh
-Centos 8, Mysql(InnoDB)를 이용하여 설계를 통한 ERD 작성 및 구현
-고객의 개인 정보와 실시간 정보가 추적이 돼야 하고,
-검색기능 사용 기대값이 높기 때문에 모든 DB서버에 RW권한을 부여한 Cluster server 사용
+Centos 8, Mysql(woofDB)를 이용하여 설계를 통한 ERD 작성 및 구현했다.
+고객의 개인 정보와 실시간 정보가 추적이 돼야 한다.
+쓰기 작업이 가능한 Master 서버와 읽기 작업만 가능한 Slave 서버를 구성하여 부하를 분산시켰다.
+
 ```
 
 ## 🖼️ 프로젝트 구현
@@ -40,17 +39,16 @@ ERD
 
 시스템 아키텍처
 -------------
-![Alt text](<img/시스템 아키텍처.png>)
+![Alt text](<img/시스템 아키텍처.jpg>)
 ```sh
-쓰기 기능의 사용량이 많을 것으로 생각되어 모든 서버에 읽기, 쓰기 권한을 부여하고자 한다.
+쓰기 작업이 가능한 Master 서버와 읽기 작업만 가능한 Slave 서버를 구성하여 부하를 분산시켰다.
 ```
+-------------
+Master-Slave 서버란?
+데이터베이스 시스템에서 주로 사용되는 데이터 복제(replication) 방식 중 하나
+-------------
 
-multi-primary를 활용한 cluster 서버
------------------------------------------
-<img src="img/ezgif.com-video-to-gif.gif">
-<img src="img/ezgif.com-video-to-gif (1).gif">
-<서버 닫고열고 해보고 하는 움짤>
-우리꺼로 바꾸기
+
 
 ## 🙂팀원
 
