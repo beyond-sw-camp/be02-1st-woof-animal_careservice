@@ -48,7 +48,7 @@ ERD
 
 릴레이션 스키마
 ------------
-![Alt text](<img/릴레이션 스키마.png>)
+![Alt text](<img/스키마.png>)
 ```sh
 상세보기 
 
